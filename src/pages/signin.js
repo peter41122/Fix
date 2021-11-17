@@ -11,10 +11,11 @@ function Signin() {
   const onSubmit = (e) => {
     e.preventDefault();
     // history.push('/dashboard');
+    history.push('/getstarted');
   };
   return (
     <div className="flex flex-row bg-white min-h-screen">
-      <div className="flex-1 text-white sign-left-panel">
+      <div className="flex-1 text-white left-panel">
         <div className="flex flex-col">
           <div className="m-5 mb-3 flex flex-row-reverse items-center text-xs">
             <button className="bg-white hover:bg-gray-300 text-blue-600 transition duration-100 w-1/6 p-1" onClick={() => onSignup()}>Sign Up</button>

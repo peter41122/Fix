@@ -9,7 +9,7 @@ function Signup() {
   };
 
   return (
-    <div className="flex flex-row sign-left-panel min-h-screen">
+    <div className="flex flex-row left-panel min-h-screen">
       <div className="flex-1 m-auto hidden md:block">
         <img className="m-auto object-bottom" src="../assets/logo.png" alt="Fix" />
       </div>

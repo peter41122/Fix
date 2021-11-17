@@ -5,6 +5,9 @@ import Splash from './pages/splash';
 import Signin from './pages/signin';
 import Signup from './pages/signup';
 // import Dashboard from './pages/dashboard';
+import Getstarted from './pages/getstarted';
+import Checkout from './pages/checkout';
+import Checkoutconfirm from './pages/checkoutconfirm';
 
 const App = () => (
   <Router>
@@ -19,12 +22,18 @@ const App = () => (
         <Route path="/signup">
           <Signup />
         </Route>
+        <Route path="/getstarted">
+          <Getstarted />
+        </Route>
+        <Route path="/checkout">
+          <Checkout />
+        </Route>
+        <Route path="/checkoutconfirm">
+          <Checkoutconfirm />
+        </Route>
         {/* <Route path="/dashboard">
           <Dashboard />
         </Route> */}
-        <Route path="/">
-          <Splash />
-        </Route>
       </Switch>
     </div>
   </Router>

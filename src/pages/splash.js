@@ -22,7 +22,6 @@ function Splash() {
   return (
     <div className="flex m-auto min-h-screen splash">
       <img className="m-auto " src="../assets/logo.png" alt="Fix" />
-      {/* w-1/2 h-1/2 md:w-1/6 md:h-1/6  */}
     </div>
   );
 }

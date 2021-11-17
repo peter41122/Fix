@@ -38,10 +38,14 @@
 }
 
 /* signup page style */
-.sign-left-panel {
+.left-panel {
   background-color: #0070c0;
+  position: relative;
 }
-
+.left-panel-footer {
+  position: absolute;
+  bottom: 3rem;
+}
 .border-bottom {
   border-bottom: 1px solid black;
 }
@@ -54,6 +58,9 @@
   position: absolute;
   left: -30px;
   top: calc(100% / 2 - 30px);
+}
+.prev-p {
+  cursor: pointer;
 }
 
 /* splash page style */
